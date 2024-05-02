@@ -1,0 +1,10 @@
+.EditarCombobox{
+
+    padding: 0px;
+    border: 40px;
+    margin: 0; /* Centrar el div horizontalmente */
+    max-width: 100%;
+}
+.TituloComboBox{
+    color: #f7f9f9;
+}

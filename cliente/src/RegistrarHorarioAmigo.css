@@ -1,0 +1,104 @@
+
+.Checkbox label {
+    margin-right: 65px; /* Espacio horizontal entre cada checkbox y su etiqueta */
+  }
+
+  .Turnos select {
+    margin-right: 55px; /* Ajusta el tamaño del margen según tus preferencias */
+  }
+  .Horarios h5 {
+    display: inline-block;
+    margin-right: 70px; /* Ajusta el margen entre los elementos según tus preferencias */
+  }
+
+  .datagrid-container {
+    width: 100%;
+    overflow-x: auto;
+    color: #000;
+  }
+  
+  .datagrid {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .datagrid th,
+  .datagrid td {
+    padding: 8px;
+    border: 1px solid #212525;
+  }
+  
+  .datagrid th {
+    background-color: #f2f2f2 ;
+  }
+  
+  .datagrid tbody tr:nth-child(even) {
+    background-color: #f2f2f2 ;
+  }
+  .datagrid tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+
+  .form-horarios{
+    width: 1500px;
+    background: #ECF6FF;
+    padding: 30px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #000;
+    box-shadow: 7px 13px 37px #000;
+  }
+
+  .Turnos{
+    color:#030303;
+    margin-left: 55px;
+  }
+
+  .custom-cancel-button,
+  .custom-next-button {
+  margin-top: 90px;
+  }
+
+  .form-register h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .horario{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3 0px; /* Puedes ajustar este valor según tu preferencia */
+    width: 1200px;
+    background: #112A4A;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(254, 251, 251);
+    box-shadow: 7px 7px 7px #000;
+
+  }
+  
+  .day-container {
+    width: calc(100% / 7); /* Dividir en 7 columnas */
+    text-align: center; /* Centrar el contenido */
+    margin-bottom: 30px;/* Ajusta el espaciado entre los elementos */
+  }
+  
+  .select-container {
+    margin-left: 30px; /* Ajusta el espaciado entre el checkbox y el select */
+  }
+  .checkbox-label-container {
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
